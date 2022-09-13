@@ -3,7 +3,7 @@ from torch import device
 
 class Config:
     # SIMULATED DATA OPTIONS
-    DATA_FOLDER = './real_data/' #Data folder that simulation data will be read from and saved to.
+    DATA_FOLDER = './data/' #Data folder that simulation data will be read from and saved to.
     RESULTS_FOLDER = './results_folder/' #Data folder that prediction arrays will be saved to.
     CONNECTOME_MEAN = 0.0  # mean of the distribution from which connectomes will be sampled
     CONNECTOME_STD = 1.0  # std of the distribution from which connectomes will be sampled
