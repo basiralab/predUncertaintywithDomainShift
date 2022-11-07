@@ -140,7 +140,7 @@ EnsembleConstants options:
 - ```LEARNING_RATE  ```: Learning rate for optimizer
 - ```WEIGHT_DECAY  ```: Weigt Decay for optimizer
 
-## Components of DGN’s Code
+## Code components
 | Component | Content |
 | ------ | ------ |
 | config.py | Includes hyperparameter and other options. You may modify it according to your needs. |
@@ -149,10 +149,34 @@ EnsembleConstants options:
 | demo.py| Driver code that import variables from config.py and trains ensemble with and without domain shift.  |
 | ensemble.txt| Definition of base learners in the ensemble. |
 
-[1]Hanik, M., Demirtas¸, M.A., Gharsallaoui, M.A., Rekik, I.: Predicting cognitive scores with graph neural networks through sample selection learning. Brain Imaging and Behavior 16 (2022) 1123–1138
 
-[2]Corso, G., Cavalleri, L., Beaini, D., Lio, P., Veli ` ckovi ˇ c, P.: Principal neighbourhood ag- ´ gregation for graph nets. Advances in Neural Information Processing Systems 33 (2020) 13260–13271
+## YouTube videos to install and run the code and understand how our code works
 
-To learn about more about quantifying uncertainty using ensemble, check out Basira lab website:
-www.basira-lab.com
+To install and run our code, check the following YouTube video: 
+
+https://www.youtube.com/watch?v=GSUQBodRYmA&list=PLug43ldmRSo2p3vVV5K9I4yWZuyXQ0_jL&index=2&ab_channel=BASIRALab
+
+To learn about how our method works, check the following YouTube video: 
+
+https://www.youtube.com/watch?v=F7_dnlJsuMo&list=PLug43ldmRSo0bX8cOSuMWinXs-xem9q4o&index=6&ab_channel=BASIRALab
+
+## Relevant References
+
+[1] Hanik, M., Demirtas¸, M.A., Gharsallaoui, M.A., Rekik, I.: Predicting cognitive scores with graph neural networks through sample selection learning. Brain Imaging and Behavior 16 (2022) 1123–1138
+
+[2] Corso, G., Cavalleri, L., Beaini, D., Lio, P., Veli ` ckovi ˇ c, P.: Principal neighbourhood ag- ´ gregation for graph nets. Advances in Neural Information Processing Systems 33 (2020) 13260–13271
+
+
+## Please cite the following paper when using DGN
+```latex
+@inproceedings{yurekli2022quantifying,
+  title={Quantifying the Predictive Uncertainty of Regression GNN Models Under Target Domain Shifts},
+  author={Y{\"u}rekli, Selim and Demirta{\c{s}}, Mehmet Arif and Rekik, Islem},
+  booktitle={International Workshop on PRedictive Intelligence In MEdicine},
+  pages={149--159},
+  year={2022},
+  organization={Springer}
+}
+```
+
 
