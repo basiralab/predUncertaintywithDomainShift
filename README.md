@@ -167,7 +167,7 @@ https://www.youtube.com/watch?v=F7_dnlJsuMo&list=PLug43ldmRSo0bX8cOSuMWinXs-xem9
 [2] Corso, G., Cavalleri, L., Beaini, D., Lio, P., Veli ` ckovi ˇ c, P.: Principal neighbourhood ag- ´ gregation for graph nets. Advances in Neural Information Processing Systems 33 (2020) 13260–13271
 
 
-## Please cite the following paper when using DGN
+## Please cite the following paper when using our code
 ```latex
 @inproceedings{yurekli2022quantifying,
   title={Quantifying the Predictive Uncertainty of Regression GNN Models Under Target Domain Shifts},
